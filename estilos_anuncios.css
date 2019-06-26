@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap');
+
+html{
+    font-family: lato, sans-serif;
+}
+.row{
+    display: flex;
+    justify-content: space-between; /*alinea de manera horizontal*/
+    padding-top: 1.8rem;
+    align-items: center;
+   background: #2f2f2f;
+    color: white;   
+}
+
+.menu a{
+    margin: 0;
+    color:white;
+    text-decoration: none;/**/
+    margin-right: 2rem;
+}
+
+
+.footer {
+    background-color:#2f2f2f;
+}
+
+.container{
+    max-width: 100rem; 
+    margin-right: auto;
+    margin-left: auto;
+
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    box-sizing: border-box;
+    width: 95%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    
+    }
+
+    .m-left-1 {
+        margin-left: 1rem;
+    }
+    
+    .h-100 {
+        height: 100%;
+    }
+    
+    .border-1{
+        border: solid 1px #c1c1c1;
+    }
+    
+    .card{
+        background: #f5f5f5;
+    }
+    
+    .card h3{
+        font-size: 1.9rem;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+    
+    .anuncios .img{
+        width: 100%;
+    }
+    
+    .encabezado{
+        font-size: 1.5rem;
+    }
+    
+    .color{
+        color: #ffffff;
+    }
+    
+    .color-green{
+        color: #75c50a;
+    }
+    
+    /*Utilidades*/
+    .seccion{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    /*clase icono-nosotros*/
+    .d-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    /*Clase icono*/
+    .icono{
+        flex-basis: calc(33.33% - 1rem);
+    }
+    
+    .col-3{
+        flex-basis: calc(33.33% - 1rem);
+    }
+    
+    .col-2{
+        flex-basis: calc(50% - 1rem);
+    }
+    
+    .center{
+        text-align: center;
+        line-height: 2rem;
+    }
+    
+    .icono h3{
+        text-transform: uppercase;
+    }
+    
+    .encabezado-nosotros{
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .fw-300{
+        font-weight: 300;
+    }
+    
+    /*Botones*/
+    .boton-naranja{
+        display: block;
+        margin-top:  1rem;
+        text-decoration: none;
+        padding: 1rem;
+        font-weight: 600; 
+        font-size: 1rem; 
+        color: white; 
+        background-color: #e09d22fd; /*Color del fondo*/
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+    
+    .boton-verde{
+        text-decoration: none;
+        padding: 1rem;
+        font-weight: 600;
+        font-size: 1rem;
+        color: #ffffff;
+        background-color: #75c50a;
+        text-align: center;
+    }
+    
+    .tamaño{
+        width: 10%;
+    }
+    
+    .blog{
+        margin-top: 1rem;
+    }
+    

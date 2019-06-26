@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap');
+
+html{
+    font-family: lato, sans-serif;
+}
+.row{
+    display: flex;
+    justify-content: space-between; /*alinea de manera horizontal*/
+    padding-top: 1.8rem;
+    align-items: center;
+   background: #2f2f2f;
+    color: white;   
+}
+
+.menu a{
+    margin: 0;
+    color:white;
+    text-decoration: none;/**/
+    margin-right: 2rem;
+}
+
+
+.footer {
+    background-color:#2f2f2f;
+}
+
+.container{
+    max-width: 100rem; 
+    margin-right: auto;
+    margin-left: auto;
+
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    box-sizing: border-box;
+    width: 95%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    
+    }
+    .contenedor {
+        width: 95%;
+        max-width: 120rem; /** = 1200px; **/
+        margin: 0 auto;
+    }
+
+    .img {
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        
+    }
+    .seccion{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .seccion-inferior {
+        display: flex;
+        justify-content: center;
+        margin: 2 rem;
+    }
+    .seccion-inferior .blog {
+        flex-basis: 60%;
+    }
+    .seccion-inferior .testimoniales {
+        flex-basis: calc(30% - 2rem);
+    }
+    
+    .entrada-blog {
+    margin-bottom: 2rem;
+    }
+    
+    .entrada-blog {
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem;
+    }
+    .text-blog{
+        text-align: center;
+        margin: 2rem;
+    }
+    
+    .entrada-blog:last-of-type {
+    margin-bottom: 0;
+    }
+    
+    .entrada-blog .imagen {
+        flex-basis: 40%;
+    }
+    .entrada-blog .texto-entrada {
+        flex-basis: calc(60% - 3rem);
+    }
+    
+    .texto-entrada a {
+    color: #000000;
+    text-decoration: none;
+    margin: 1rem;
+    }
+    .texto-entrada h4 {
+    margin: 1rem;
+    line-height: 1.4;
+
+    }
+    .texto-entrada a::after {
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: green;
+    margin-top: 1rem;
+    }
+    .texto-entrada span {
+    color:orange;
+    }
+   
+    .texto-entrada {
+        margin: 1 rem;
+    }
